@@ -1,0 +1,422 @@
+ body{ 
+        width:100%;
+        }
+
+        #outerMost
+        {
+           height : 100px;
+           width : 90%;
+           margin:auto;
+        }
+
+        #navbarr 
+        {
+            height: 90%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            margin-top:3%;   
+        }
+
+        #nord 
+        {
+            height: 25px;
+            width: 160px;
+            margin-left: 3%;
+        }
+
+        #search 
+        {
+            height: 34px;
+            width: 730px;  
+            font-size:16px;
+            padding:2px;
+        }
+
+        #signIn
+        {
+            height: 34px;
+            width:120px;
+            text-align : center;
+            font-size:12px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin-right:7%;
+        }
+        #signIn>option
+        {
+            font-size:12px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        #cart 
+            {
+                height: 34px;
+                width: 54px;
+                font-size:12px;
+            }
+
+        #signCart
+            {
+                margin-right:2%;
+                display:flex;
+            }
+            #list > ul 
+            {
+                display:flex;
+                gap: 6%;
+                font-size:16px;
+                margin:auto;
+                width:100%;
+                justify-content:center;
+                border: 0px;
+                list-style:none;
+            }
+        a{
+            text-decoration:none;
+         }
+
+        #list
+        {
+         width:98%;
+         margin:auto;
+         
+        }
+
+        #menu
+            {
+            height:430px;
+            width:97%;
+            display:flex;
+            margin:auto;
+            margin-top:10%;
+
+            }
+        
+        .tab
+        {
+            width:20%;
+            justify-content: space-around;
+            font-size:16px;
+            margin-left:2%;
+            margin-top:1%;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .tab>p{
+            padding:1%;
+            margin-left:3%;
+            font-size:12px;
+            font-family: sans
+        }
+
+        #credit
+        {
+            background : url("https://n.nordstrommedia.com/id/44648fdb-be56-4600-addb-6d3c7ba21f2c.jpeg?h=200&w=1608") no-repeat;
+            height:210px;
+            width:90%;
+            margin:auto;
+        }
+        
+        #credit>div{
+            width:30%;
+            margin:auto;
+            padding:34px;
+            font-size:16px;
+
+        }
+
+       .line
+        {
+        height:1px;
+        width:90%;
+        margin:auto;
+        border: 1px solid maroon;
+        margin-top:1%;
+        background-color:maroon;
+        } 
+        .sunshine
+        {
+        margin:auto;
+        display:flex;
+        margin-top:2%;
+        width:90%;
+        }
+
+        .sunshine>div{
+            width:70%;
+        }
+
+        .vacation>h2{
+            font-size:34px;
+            font-family:Arial, Helvetica, sans-serif
+        }
+        .vacation>p{
+            font-size:16px;
+        }
+
+        .vacation
+        {
+            height:60%;
+            width:30%;
+            margin:auto;
+        }
+
+        .beautyCycle
+        {
+            background:url("https://n.nordstrommedia.com/id/e286ffa9-9ade-43d0-b765-abefdc777eee.jpeg?h=400&w=1608") no-repeat;
+            height:421px;
+            margin:auto;
+            margin-top:1%;
+            width:97%;
+        }
+
+        .three
+        {
+            width:90%;
+            margin:auto;
+            display:grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows:repeat(1, 430px);
+            text-align:left;
+            gap:10px;
+
+        }
+        .text
+        {
+            
+            justify-content:center;
+            align-items:center;
+            margin:auto;
+            padding-left:6%;
+        }
+
+        .text>img{
+            width:90%;
+            height:75%;
+            margin-left: 3%;
+        }
+
+        #find
+        {
+            height:34px;
+            width:34px;
+            font-size:12px;
+
+        }
+        
+        .nordypod
+        {
+            height:201px;
+            width:90%;
+            margin:auto;
+            margin-top:10%;
+            display:flex;
+        }
+
+        .spring
+        {
+            height:390px;
+            width:90%;
+            
+            margin:auto;
+            background: url("https://n.nordstrommedia.com/id/8e3ed0ba-313a-40c2-b12a-fb53a50a387a.jpeg?h=400&w=1608") no-repeat;
+            text-align:left;
+        }
+
+        .book
+        {
+            width:39%;
+            margin-left:2px;
+            padding-top:9%;
+        }
+
+        .catagory
+        {
+            width:90%;
+            display:grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-template-rows: repeat(1, 210px);
+            margin:auto;
+            margin-top:16%;
+            gap:10px;
+        }
+
+        .slide
+        {
+            width:90%;
+            display:grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-template-rows:repeat(1, 210px);
+            gap:10px;
+            margin:auto;
+            margin-top: 16%;
+        }
+
+        
+
+        .slide>div>img{
+            height:100%;
+        }
+
+        div.slide {
+       background-color: #ffff;
+       overflow: auto;
+       white-space: nowrap;
+       height:430px;
+       width:90%;
+        }
+
+        div.slide a {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+        height:430px;
+        width:90%;
+        }
+
+        div.slide a:hover {
+        background-color:#ffff;
+        }
+
+        .slide>div
+        {
+        height:390px;
+        margin:auto;
+        }
+
+        #shop
+        {
+            width:27%;
+            margin:auto;
+            text-align:center;
+            font-size:16px;
+        }
+
+        #shop>button
+        {
+            font-size:12px;
+            padding:10px;
+            width:70%;
+        }
+
+        #icon
+        {
+            display:flex;
+            margin:auto;
+        }
+
+        * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+  
+  
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: maroon;
+  text-align: center;
+  padding: 14px 16px;
+  justify-content:space-evenly;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: maroon;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+  justify-content:space-evenly;
+  margin-left: 61px;
+  text-decoration:none;
+  font-size:16px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: white;
+  text-decoration: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  
+}
+
+.dropdown-content .header {
+  background: aqua;
+  padding: 16px;
+  color: black;
+  text-decoration:none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  background-color: whitesmoke;
+  height: 250px;
+}
+
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    height: auto;
+  }
+}
+  

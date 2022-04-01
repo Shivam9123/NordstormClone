@@ -6,325 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <link rel="stylesheet" href="index.css">
     <style>
     
-        body{ 
-        width:100%;
-        }
-
-        #outerMost
-        {
-           height : 100px;
-           width : 90%;
-           margin:auto;
-        }
-
-        #navbar 
-        {
-            height: 90%;
-            margin: auto;
-            display: flex;
-            justify-content: space-between;
-            margin-top:3%;   
-        }
-
-        #nord 
-        {
-            height: 25px;
-            width: 160px;
-            margin-left: 3%;
-        }
-
-        #search 
-        {
-            height: 34px;
-            width: 730px;  
-            font-size:16px;
-            padding:2px;
-        }
-
-        #signIn
-        {
-            height: 34px;
-            width:120px;
-            text-align : center;
-            font-size:12px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            margin-right:7%;
-        }
-        #signIn>option
-        {
-            font-size:12px;
-            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-        
-        #cart 
-            {
-                height: 34px;
-                width: 54px;
-                font-size:12px;
-            }
-
-        #signCart
-            {
-                margin-right:2%;
-                display:flex;
-            }
-            #list > ul 
-            {
-                display:flex;
-                gap: 6%;
-                font-size:16px;
-                margin:auto;
-                width:100%;
-                justify-content:center;
-                border: 0px;
-                list-style:none;
-            }
-        a{
-            text-decoration:none;
-         }
-
-        #list
-        {
-         width:98%;
-         margin:auto;
-         
-        }
-
-        #menu
-            {
-            height:430px;
-            width:97%;
-            display:flex;
-            margin:auto;
-            margin-top:10%;
-
-            }
-        
-        .tab
-        {
-            width:20%;
-            justify-content: space-around;
-            font-size:16px;
-            margin-left:2%;
-            margin-top:1%;
-            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .tab>p{
-            padding:1%;
-            margin-left:3%;
-            font-size:12px;
-            font-family: sans
-        }
-
-        #credit
-        {
-            background : url("https://n.nordstrommedia.com/id/44648fdb-be56-4600-addb-6d3c7ba21f2c.jpeg?h=200&w=1608") no-repeat;
-            height:210px;
-            width:90%;
-            margin:auto;
-        }
-        
-        #credit>div{
-            width:30%;
-            margin:auto;
-            padding:34px;
-            font-size:16px;
-
-        }
-
-       .line
-        {
-        height:1px;
-        width:90%;
-        margin:auto;
-        border: 1px solid maroon;
-        margin-top:1%;
-        background-color:maroon;
-        } 
-        .sunshine
-        {
-        margin:auto;
-        display:flex;
-        margin-top:2%;
-        width:90%;
-        }
-
-        .sunshine>div{
-            width:70%;
-        }
-
-        .vacation>h2{
-            font-size:34px;
-            font-family:Arial, Helvetica, sans-serif
-        }
-        .vacation>p{
-            font-size:16px;
-        }
-
-        .vacation
-        {
-            height:60%;
-            width:30%;
-            margin:auto;
-        }
-
-        .beautyCycle
-        {
-            background:url("https://n.nordstrommedia.com/id/e286ffa9-9ade-43d0-b765-abefdc777eee.jpeg?h=400&w=1608") no-repeat;
-            height:421px;
-            margin:auto;
-            margin-top:1%;
-            width:97%;
-        }
-
-        .three
-        {
-            width:90%;
-            margin:auto;
-            display:grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-template-rows:repeat(1, 430px);
-            text-align:left;
-            gap:10px;
-
-        }
-        .text
-        {
-            
-            justify-content:center;
-            align-items:center;
-            margin:auto;
-            padding-left:6%;
-        }
-
-        .text>img{
-            width:90%;
-            height:75%;
-            margin-left: 3%;
-        }
-
-        #find
-        {
-            height:42px;
-            width:42px;
-            font-size:12px;
-
-        }
-        
-        .nordypod
-        {
-            height:201px;
-            width:90%;
-            margin:auto;
-            margin-top:10%;
-            display:flex;
-        }
-
-        .spring
-        {
-            height:390px;
-            width:90%;
-            
-            margin:auto;
-            background: url("https://n.nordstrommedia.com/id/8e3ed0ba-313a-40c2-b12a-fb53a50a387a.jpeg?h=400&w=1608") no-repeat;
-            text-align:left;
-        }
-
-        .book
-        {
-            width:39%;
-            margin-left:2px;
-            padding-top:9%;
-        }
-
-        .catagory
-        {
-            width:90%;
-            display:grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(1, 210px);
-            margin:auto;
-            margin-top:16%;
-            gap:10px;
-        }
-
-        .slide
-        {
-            width:90%;
-            display:grid;
-            grid-template-columns: repeat(10, 1fr);
-            grid-template-rows:repeat(1, 210px);
-            gap:10px;
-            margin:auto;
-            margin-top: 16%;
-        }
-
-        
-
-        .slide>div>img{
-            height:100%;
-        }
-
-        div.slide {
-       background-color: #ffff;
-       overflow: auto;
-       white-space: nowrap;
-       height:430px;
-       width:90%;
-        }
-
-        div.slide a {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px;
-        text-decoration: none;
-        height:430px;
-        width:90%;
-        }
-
-        div.slide a:hover {
-        background-color:#ffff;
-        }
-
-        .slide>div
-        {
-        height:390px;
-        margin:auto;
-        }
-
-        #shop
-        {
-            width:27%;
-            margin:auto;
-            text-align:center;
-            font-size:16px;
-        }
-
-        #shop>button
-        {
-            font-size:12px;
-            padding:10px;
-            width:70%;
-        }
-
-        #icon
-        {
-            display:flex;
-            margin:auto;
-        }
-     
+          
     </style>
 
 </head>
 <body>
     <!-- header -->
     <div id = "outerMost">
-        <div id = "navbar">
+        <div id = "navbarr">
            <a href="index.html"><img id= "nord" src =" https://hautephotovideo.com/wp-content/uploads/2021/02/Nordstrom.png"/></a> 
             <div>
                 <button id="find" type="submit"><i class="fa fa-search"></i></button>
@@ -347,22 +39,280 @@
         </div>
     </div>
     
-        <div id="dropdown">
-             <div id="list">
-                 <ul>
-                    <li><a href="sale.html">sale</a></li>
-                    <li> <a href="women.html">women</a></li>
-                    <li> <a href="men.html">men</a></li>
-                    <li> <a href="kids.html">kids</a></li>
-                    <li><a href="young adult.html">young adult</a></li>
-                    <li><a href="women.html">active wear</a></li>
-                    <li> <a href="index.html">home</a></li>
-                    <li> <a href="kids.html">beauty</a></li>
-                    <li> <a href="sale.html">designer</a></li>
-                    <li> <a href="men.html">gift</a></li>
-                 </ul>
-             </div>
-         </div>
+    <div class="navbar">
+        
+        
+        <div class="dropdown">
+          <button class="dropbtn">sale
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div class="header">
+              <h2>sale</h2>
+            </div>   
+            <div class="row">
+              <div class="column">
+                <h3>best sellers</h3>
+                <a href="women.html">clothing</a>
+                <a href="women.html">shoes</a>
+                <a href="women.html">handbags & wallets</a>
+              </div>
+              <div class="column">
+                <h3>new arrivals</h3>
+                <a href="#">accessories</a>
+                <a href="#">grooming</a>
+                <a href="#">designer</a>
+              </div>
+              <div class="column">
+                <h3>work from home</h3>
+                <a href="#">home decor</a>
+                <a href="#">travel</a>
+                <a href="#">beauty</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">women
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div class="header">
+              <h2>women</h2>
+            </div>   
+            <div class="row">
+              <div class="column">
+                <h3>Category 1</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <div class="column">
+                <h3>Category 2</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+              <div class="column">
+                <h3>Category 3</h3>
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">men
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="header">
+                <h2>men</h2>
+              </div>   
+              <div class="row">
+                <div class="column">
+                    <h3>best sellers</h3>
+                    <a href="women.html">clothing</a>
+                    <a href="women.html">shoes</a>
+                    <a href="women.html">handbags & wallets</a>
+                  </div>
+                  <div class="column">
+                    <h3>new arrivals</h3>
+                    <a href="#">accessories</a>
+                    <a href="#">grooming</a>
+                    <a href="#">designer</a>
+                  </div>
+                  <div class="column">
+                    <h3>work from home</h3>
+                    <a href="#">home decor</a>
+                    <a href="#">travel</a>
+                    <a href="#">beauty</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">kids
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="header">
+                <h2>Menu</h2>
+              </div>   
+              <div class="row">
+                <div class="column">
+                  <h3>Category 1</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                  <h3>Category 2</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                  <h3>Category 3</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">young adults
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="header">
+                <h2>Menu</h2>
+              </div>   
+              <div class="row">
+                <div class="column">
+                    <h3>best sellers</h3>
+                    <a href="women.html">clothing</a>
+                    <a href="women.html">shoes</a>
+                    <a href="women.html">handbags & wallets</a>
+                  </div>
+                  <div class="column">
+                    <h3>new arrivals</h3>
+                    <a href="#">accessories</a>
+                    <a href="#">grooming</a>
+                    <a href="#">designer</a>
+                  </div>
+                  <div class="column">
+                    <h3>work from home</h3>
+                    <a href="#">home decor</a>
+                    <a href="#">travel</a>
+                    <a href="#">beauty</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">active wear
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="header">
+                <h2>Menu</h2>
+              </div>   
+              <div class="row">
+                <div class="column">
+                  <h3>Category 1</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                  <h3>Category 2</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                  <h3>Category 3</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">home
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="header">
+                <h2>Menu</h2>
+              </div>   
+              <div class="row">
+                <div class="column">
+                    <h3>best sellers</h3>
+                    <a href="women.html">clothing</a>
+                    <a href="women.html">shoes</a>
+                    <a href="women.html">handbags & wallets</a>
+                  </div>
+                  <div class="column">
+                    <h3>new arrivals</h3>
+                    <a href="#">accessories</a>
+                    <a href="#">grooming</a>
+                    <a href="#">designer</a>
+                  </div>
+                  <div class="column">
+                    <h3>work from home</h3>
+                    <a href="#">home decor</a>
+                    <a href="#">travel</a>
+                    <a href="#">beauty</a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">beauty
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <div class="header">
+                <h2>Menu</h2>
+              </div>   
+              <div class="row">
+                <div class="column">
+                  <h3>Category 1</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                  <h3>Category 2</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+                <div class="column">
+                  <h3>Category 3</h3>
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="dropdown">
+          <button class="dropbtn">designer
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <div class="header">
+              <h2>Menu</h2>
+            </div>   
+            <div class="row">
+                <div class="column">
+                    <h3>best sellers</h3>
+                    <a href="women.html">clothing</a>
+                    <a href="women.html">shoes</a>
+                    <a href="women.html">handbags & wallets</a>
+                  </div>
+                  <div class="column">
+                    <h3>new arrivals</h3>
+                    <a href="#">accessories</a>
+                    <a href="#">grooming</a>
+                    <a href="#">designer</a>
+                  </div>
+                  <div class="column">
+                    <h3>work from home</h3>
+                    <a href="#">home decor</a>
+                    <a href="#">travel</a>
+                    <a href="#">beauty</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
             <div id="shop">
                 <h2>Shop what you love—faster and easier.</h2>
                 <button><a href ="signIn.html">sign In or create account</a></button>
@@ -442,23 +392,23 @@
          <div class="catagory">
              
              <div class="innerTab">
-                 <img src="https://n.nordstrommedia.com/id/bcf8f4f3-1f56-446a-a5c6-45b51e348801.jpeg?h=365&w=268"/>
+                 <a href="women.html"><img src="https://n.nordstrommedia.com/id/bcf8f4f3-1f56-446a-a5c6-45b51e348801.jpeg?h=365&w=268"/></a>
                  <h3>woman</h3>
              </div>
              <div class="innertab">
-                 <img src="https://n.nordstrommedia.com/id/90631b6f-f991-4e8c-bdac-a5133520450a.jpeg?h=365&w=268"/>
+                 <a href="men.html"><img src="https://n.nordstrommedia.com/id/90631b6f-f991-4e8c-bdac-a5133520450a.jpeg?h=365&w=268"/></a>
                  <h3>men</h3>
              </div>
              <div class="innertab">
-                 <img src="https://n.nordstrommedia.com/id/4fe1c4fc-f81b-4ccf-a661-2c0b5fef6dc7.jpeg?h=365&w=268"/>
+                 <a href="kids.html"><img src="https://n.nordstrommedia.com/id/4fe1c4fc-f81b-4ccf-a661-2c0b5fef6dc7.jpeg?h=365&w=268"/></a>
                  <h3>kids</h3>
              </div>
              <div class="innertab">
-                 <img src="https://n.nordstrommedia.com/id/e4a1a210-0e30-4960-98df-1aee973a2a8f.jpeg?h=365&w=268"/>
+                 <a href="kids.html"><img src="https://n.nordstrommedia.com/id/e4a1a210-0e30-4960-98df-1aee973a2a8f.jpeg?h=365&w=268"/></a>
                  <h3>home</h3>
              </div>
              <div class="innertab">
-                 <img src="https://n.nordstrommedia.com/id/c72df99d-147e-45a5-838f-55cfd0e72fd2.jpeg?h=365&w=268"/>
+                 <a href="sale.html"><img src="https://n.nordstrommedia.com/id/c72df99d-147e-45a5-838f-55cfd0e72fd2.jpeg?h=365&w=268"/></a>
                  <h3>beauty & frangrance</h3>
              </div>
              <div class="innertab">
